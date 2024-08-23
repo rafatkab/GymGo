@@ -1,11 +1,14 @@
-import { StyleSheet, Text, View } from "react-native";
+import { View, Text } from "react-native";
 import React from "react";
-import { Slot } from "expo-router";
+import { Stack } from "expo-router";
+import { SafeAreaView } from "react-native-safe-area-context";
 
-const RootLayout = () => {
-  return <Slot />;
+const _layout = () => {
+  return (
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
+  );
 };
 
-export default RootLayout;
-
-const styles = StyleSheet.create({});
+export default _layout;
