@@ -20,21 +20,22 @@ const SignUp = () => {
         placeholderTextColor="#FFFFFF"
       />
       <TextInput
-        className="w-full mt-3 p-5 rounded-full bg-[#D9D9D9] text-red-400 text-xl"
+        className="w-full mt-3 p-5 rounded-full bg-[#D9D9D9] text-white text-xl"
         placeholder="Password"
         placeholderTextColor="#FFFFFF"
       />
-
-      <View className="self-start">
-        <Button title="Forgot Password?" />
-      </View>
-      <TouchableOpacity className="mt-6 w-full p-4 flex justify-center items-center  bg-[#6C4BFF] rounded-full">
+      <TextInput
+        className="w-full mt-3 p-5 rounded-full bg-[#D9D9D9] text-white text-xl"
+        placeholder="Retype Password"
+        placeholderTextColor="#FFFFFF"
+      />
+      <TouchableOpacity className="mt-16 w-full p-4 flex justify-center items-center  bg-[#6C4BFF] rounded-full">
         <Text className="text-xl text-white">Sign up</Text>
       </TouchableOpacity>
       <Text className="self-start mt-1 text-lg border">
-        New to Gym?
+        Already have an account?
         <View className="h-10">
-          <Button title="Create Account" />
+          <Button title="Sign In" />
         </View>
       </Text>
     </SafeAreaView>
