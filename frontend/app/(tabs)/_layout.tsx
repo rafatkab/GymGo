@@ -6,8 +6,8 @@ const TabsLayout = () => {
   return (
     <Tabs>
       <Tabs.Screen
-        name="home"
-        options={{ title: "Home", headerShown: false }}
+        name="lifting"
+        options={{ title: "Lifting", headerShown: false }}
       />
       <Tabs.Screen name="one" options={{ title: "One", headerShown: false }} />
       <Tabs.Screen name="two" options={{ title: "Two", headerShown: false }} />

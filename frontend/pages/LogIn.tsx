@@ -9,7 +9,7 @@ import {
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const LogInPage = () => {
+const LogIn = () => {
   return (
     <SafeAreaView className="mx-5 flex-1 justify-center items-center">
       <Text className="text-4xl self-start">Sign In</Text>
@@ -41,4 +41,4 @@ const LogInPage = () => {
   );
 };
 
-export default LogInPage;
+export default LogIn;
